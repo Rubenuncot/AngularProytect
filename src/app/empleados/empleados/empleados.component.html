@@ -1,0 +1,6 @@
+<p>empleados works!</p>
+
+<div *ngFor="let empleado of empleados">
+  <input type="text" [(ngModel)]="empleadoNombreNuevo">
+  <p>{{ ponerNombres(empleado.empleadoActual) }}</p>
+</div>
